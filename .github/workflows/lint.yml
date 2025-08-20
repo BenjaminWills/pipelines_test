@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: Install Python
         uses: actions/setup-python@v4.6.0
-      - name: Install requriements
-        run: pip install -r requriements.txt
+      - name: Install requirements
+        run: pip install -r requirements.txt
       - name: Run tests
         run: pytest
